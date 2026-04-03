@@ -437,6 +437,96 @@ footer ul li a:hover { color: var(--clay); }
   color: rgba(255,255,255,0.3);
 }
 
+/* ── WEBINARS ── */
+.webinars-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.webinar-card {
+  background: var(--cream);
+  padding: 2.5rem;
+  border-top: 3px solid transparent;
+  border-radius: 2px;
+  transition: border-color 0.3s, transform 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+.webinar-card:hover { border-top-color: var(--clay); transform: translateY(-4px); }
+.webinar-badge {
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--sage);
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+.webinar-icon { font-size: 2rem; margin-bottom: 1.25rem; }
+.webinar-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+.webinar-description {
+  font-size: 0.9rem;
+  color: var(--mid-grey);
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+.webinar-meta {
+  margin-bottom: 1.5rem;
+}
+.webinar-duration {
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--mid-grey);
+}
+.webinar-btn {
+  align-self: flex-start;
+  text-align: center;
+}
+.webinar-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+.webinar-step { text-align: center; }
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: var(--deep-sage);
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.webinar-step h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+.webinar-step p {
+  font-size: 0.9rem;
+  color: var(--mid-grey);
+  line-height: 1.7;
+}
+
+@media (max-width: 1024px) {
+  .webinars-grid { grid-template-columns: 1fr; }
+  .webinar-steps { grid-template-columns: 1fr; gap: 2rem; }
+}
+
 /* ── FADE IN ── */
 .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
 .fade-in.visible { opacity: 1; transform: translateY(0); }
