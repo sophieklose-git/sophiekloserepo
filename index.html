@@ -7,16 +7,55 @@
   <meta name="description" content="Compassionate, bilingual psychological counselling in Zurich and online. Specialised support for life transitions, ADHD, and digital wellbeing." />
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "name": "Flourishing Psychology & Wellbeing",
+  "alternateName": "Sophie Klose Counselling",
+  "url": "https://www.sophieklose.com",
+  "logo": "https://www.sophieklose.com",
+  "image": "https://www.sophieklose.com/about",
+  "description": "Psychological counselling in Zürich specializing in neurodiversity (ADHD), life transitions, and identity wellbeing.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Zürich",
+    "addressCountry": "CH"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 47.3769, 
+    "longitude": 8.5417
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Counselling Services",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "ADHD & Neurodiversity Coaching" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "The Evolving Self: Identity and Belonging" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Identity & Wellbeing" }}
+    ]
+  },
+  "sameAs": [
+    "https://ch.linkedin.com",
+    "https://www.psychologytoday.com"
+  ]
+}
+</script>
+
+
 </head>
 <body>
 
 <nav>
-  <a href="index.html" class="nav-logo">Sophie Klose<span>Flourishing Psychology & Wellbeing</span></a>
+  <a href="index.html" class="nav-logo">Sophie Klose, Psychological Counsellor (MA)<span>Flourishing Psychology & Wellbeing</span></a>
   <ul class="nav-links">
     <li><a href="index.html">Home</a></li>
     <li><a href="why-counselling.html">Why Counselling</a></li>
     <li><a href="about.html">About Me</a></li>
     <li><a href="resources.html">Resources</a></li>
+    <li><a href="webinars.html">Webinars</a></li>
     <li><a href="contact.html" class="nav-cta">Book Now</a></li>
   </ul>
   <div class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></div>
@@ -28,6 +67,7 @@
   <a href="why-counselling.html">Why Counselling</a>
   <a href="about.html">About Me</a>
   <a href="resources.html">Resources</a>
+  <a href="webinars.html">Webinars</a>
   <a href="contact.html">Book Now</a>
 </div>
 
@@ -43,7 +83,7 @@
     </div>
   </div>
   <div class="hero-image">
-    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=900&q=80&auto=format&fit=crop" alt="Peaceful natural setting" loading="eager" />
+    <img src="/seerose.JPG" alt="Peaceful natural setting" loading="eager" />
     <div class="hero-image-overlay"></div>
   </div>
 </section>
@@ -53,7 +93,8 @@
   <div><span>✓</span> SGfB Member</div>
   <div><span>✓</span> ACA Member</div>
   <div><span>✓</span> BACP Member</div>
-  <div><span>✓</span> MA Psychological Counselling</div>
+  <div><span>✓</span> MA Counselling</div>
+  <div><span>✓</span> BSc (Hons) Psychology</div>
   <div><span>✓</span> French & English Sessions</div>
 </div>
 
@@ -66,8 +107,8 @@
   <div class="specialisms-grid">
     <div class="specialism-card fade-in">
       <div class="specialism-icon">🌱</div>
-      <h3>Identity, Belonging &amp; the Evolving Self</h3>
-      <p>Bridging the gap between who you were and who you are becoming. Specialised support for life's major shifts: relocation, adolescence, parenthood, and career transitions.</p>
+      <h3>The Evolving Self: Identity and Belonging</h3>
+      <p>From teenage years to major life changes, I offer specialized support for adolescents and adults navigating identity, belonging, relocation, parenthood and carreer transition.</p>
     </div>
     <div class="specialism-card fade-in">
       <div class="specialism-icon">🧠</div>
@@ -86,7 +127,9 @@
 <section>
   <div class="approach">
     <div class="approach-image fade-in">
-      <img src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=700&q=80&auto=format&fit=crop" alt="Counselling environment" />
+      <img src="zebra2.JPG"
+           style="width: 80%; height: 80%; object-fit: contain;" />
+      <div class="hero-image-overlay"></div>
     </div>
     <div class="approach-text fade-in">
       <p class="section-label">My Approach</p>
@@ -135,6 +178,7 @@
       <li><a href="why-counselling.html">Why Counselling</a></li>
       <li><a href="about.html">About Me</a></li>
       <li><a href="resources.html">Resources</a></li>
+      <li><a href="webinars.html">Webinars</a></li>
     </ul>
   </div>
   <div>
@@ -159,5 +203,11 @@
 </footer>
 
 <script src="main.js"></script>
+<script>
+  window.netlifyCreateConfig = {
+    livePreview: true
+  };
+</script>
+<script src="https://unpkg.com/@stackbit/annotator"></script>
 </body>
 </html>
