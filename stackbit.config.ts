@@ -37,7 +37,7 @@ export default defineStackbitConfig({
           filePath: "{slug}.html",
           fields: [
             { name: "title", type: "string" },
-            { name: "body", type: "markdown" }
+            { name: "body", type: "string" }
           ]
         }
       ]
