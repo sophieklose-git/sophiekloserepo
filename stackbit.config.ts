@@ -3,7 +3,7 @@ import { GitContentSource } from "@stackbit/cms-git";
 
 export default defineStackbitConfig({
   stackbitVersion: "~0.6.0",
-  ssgName: "static",
+  ssgName: "custom",
   devCommand: "npx serve . -p {port}",
   contentSources: [
     new GitContentSource({
