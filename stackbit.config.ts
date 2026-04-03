@@ -11,7 +11,8 @@ export default defineStackbitConfig({
   contentSources: [
     new GitContentSource({
       rootPath: __dirname,
-      contentDirs: ["."],
+      contentDirs: ["."]
+      contentFileTypes: ["html"],
       
       // MOVED HERE: This fixes the "No assetsConfig" warning safely
       assetsConfig: {
@@ -34,7 +35,7 @@ export default defineStackbitConfig({
           name: "Page", // Matches your :Page in HTML
           type: "page",
           urlPath: "/{slug}",
-          filePath: "{slug}.html",
+          filePath: "**/{slug}.html",
           fields: [
             { name: "title", type: "string" },
             { name: "body", type: "string" }
