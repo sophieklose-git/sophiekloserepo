@@ -6,19 +6,21 @@ export default defineStackbitConfig({
   ssgName: "custom",
   devCommand: "npx serve . -p {port}",
   
-  // 1. Asset Handling: Stops the 'assetsConfig' warning
-  assets: {
-    referenceType: "static",
-    staticDir: ".",
-    uploadDir: "images",
-    publicPath: "/"
-  },
+  // NOTE: Top-level "assets" removed to fix the "forbidden peer" error
 
   contentSources: [
     new GitContentSource({
       rootPath: __dirname,
       contentDirs: ["."],
-      // 2. Exclusions: Stops errors from .netlify and node_modules folders
+      
+      // MOVED HERE: This fixes the "No assetsConfig" warning safely
+      assetsConfig: {
+        referenceType: "static",
+        staticDir: ".",
+        uploadDir: "images",
+        publicPath: "/"
+      },
+
       exclude: [
         ".netlify/**",
         "node_modules/**",
@@ -26,9 +28,10 @@ export default defineStackbitConfig({
         "stackbit.config.ts",
         "package*.json"
       ],
+      
       models: [
         {
-          name: "Page",
+          name: "Page", // Matches your :Page in HTML
           type: "page",
           urlPath: "/{slug}",
           filePath: "{slug}.html",
@@ -41,12 +44,10 @@ export default defineStackbitConfig({
     })
   ],
 
-  // 3. Sitemap Mapper: Forces the Visual Editor to see your .html files as pages
   siteMap: ({ documents }) => {
     return documents
       .filter((doc) => doc.modelName === "Page")
       .map((doc) => {
-        // Remove .html for the URL, handle index.html as root '/'
         const slug = doc.id.replace(/\.html$/, "");
         return {
           urlPath: slug === "index" ? "/" : `/${slug}`,
