@@ -5,16 +5,15 @@ export default defineStackbitConfig({
   stackbitVersion: "~0.6.0",
   ssgName: "custom",
   devCommand: "npx serve . -p {port}",
-  
-  // NOTE: Top-level "assets" removed to fix the "forbidden peer" error
 
   contentSources: [
     new GitContentSource({
       rootPath: __dirname,
-      contentDirs: ["."]
+
+      // Your HTML files are in the repo root
+      contentDirs: ["."],
       contentFileTypes: ["html"],
-      
-      // MOVED HERE: This fixes the "No assetsConfig" warning safely
+
       assetsConfig: {
         referenceType: "static",
         staticDir: ".",
@@ -29,13 +28,17 @@ export default defineStackbitConfig({
         "stackbit.config.ts",
         "package*.json"
       ],
-      
+
       models: [
         {
-          name: "Page", // Matches your :Page in HTML
+          name: "Page",
           type: "page",
-          urlPath: "/{slug}",
+
+          // This is the critical fix — recursive matching
           filePath: "**/{slug}.html",
+
+          urlPath: "/{slug}",
+
           fields: [
             { name: "title", type: "string" },
             { name: "body", type: "string" }
