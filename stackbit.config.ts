@@ -1,53 +1,60 @@
-// stackbit.config.ts
-import { defineStackbitConfig, SiteMapEntry } from "@stackbit/types";
+import { defineStackbitConfig } from "@stackbit/types";
+import { GitContentSource } from "@stackbit/cms-git";
 
 export default defineStackbitConfig({
-  // ...
+  stackbitVersion: "~0.6.0",
+  ssgName: "custom",
+  devCommand: "npx serve . -p {port}",
+
   contentSources: [
     new GitContentSource({
       rootPath: __dirname,
-      contentDirs: ["content"],
+
+      // Your HTML files are in the repo root
+      contentDirs: ["."],
+      contentFileTypes: ["html"],
+
+      assetsConfig: {
+        referenceType: "static",
+        staticDir: ".",
+        uploadDir: "images",
+        publicPath: "/"
+      },
+
+      exclude: [
+        ".netlify/**",
+        "node_modules/**",
+        ".git/**",
+        "stackbit.config.ts",
+        "package*.json"
+      ],
+
       models: [
         {
           name: "Page",
           type: "page",
-          // Static URL path derived from the "slug" field
+
+          filePath: "*{slug}.html",
           urlPath: "/{slug}",
-          filePath: "content/pages/{slug}.json",
-          fields: [{ name: "title", type: "string", required: true }]
-        },
-        // ...
-      ],
+
+          fields: [
+            { name: "title", type: "string" },
+            { name: "body", type: "string" }
+          ]
+        }
+      ]
     })
   ],
-  siteMap: ({ documents, models }) => {
-    // 1. Filter all page models
-    const pageModels = models.filter((m) => m.type === "page")
 
+  siteMap: ({ documents }) => {
     return documents
-      // 2. Filter all documents which are of a page model
-      .filter((d) => pageModels.some(m => m.name === d.modelName))
-      // 3. Map each document to a SiteMapEntry
-      .map((document) => {
-        // Map the model name to its corresponding URL
-        const urlModel = (() => {
-            switch (document.modelName) {
-                case 'Page':
-                    return 'otherPage';
-                case 'Blog':
-                    return 'otherBlog';
-                default:
-                    return null;
-            }
-        })();
-
+      .filter((doc) => doc.modelName === "Page")
+      .map((doc) => {
+        const slug = doc.id.replace(/\.html$/, "");
         return {
-          stableId: document.id,
-          urlPath: `/${urlModel}/${document.id}`,
-          document,
-          isHomePage: false,
+          urlPath: slug === "index" ? "/" : `/${slug}`,
+          document: doc
         };
-      })
-      .filter(Boolean) as SiteMapEntry[];
+      });
   }
 });
