@@ -3,46 +3,33 @@ import { GitContentSource } from "@stackbit/cms-git";
 
 export default defineStackbitConfig({
   stackbitVersion: "~0.6.0",
-  ssgName: "custom",
-  devCommand: "npx serve . -p {port}",
+  ssgName: "eleventy",
+  nodeVersion: "22",
+  devCommand: "npx @11ty/eleventy --serve --port {port}",
 
   contentSources: [
     new GitContentSource({
       rootPath: __dirname,
-
-      // Your HTML files are in the repo root
-      contentDirs: ["."],
-      contentFileTypes: ["html"],
-
+      contentDirs: ["content"],
+      models: [
+        {
+          name: "Page",
+          type: "page",
+          urlPath: "/{slug}",
+          filePath: "content/{slug}.md",
+          fields: [
+            { name: "title", type: "string", required: true },
+            { name: "layout", type: "string", const: "base.njk", hidden: true },
+            { name: "permalink", type: "string" }
+          ]
+        }
+      ],
       assetsConfig: {
         referenceType: "static",
         staticDir: ".",
         uploadDir: "images",
         publicPath: "/"
-      },
-
-      exclude: [
-        ".netlify/**",
-        "node_modules/**",
-        ".git/**",
-        "stackbit.config.ts",
-        "package*.json"
-      ],
-
-      models: [
-        {
-          name: "Page",
-          type: "page",
-
-          filePath: "*{slug}.html",
-          urlPath: "/{slug}",
-
-          fields: [
-            { name: "title", type: "string" },
-            { name: "body", type: "string" }
-          ]
-        }
-      ]
+      }
     })
   ],
 
@@ -50,9 +37,9 @@ export default defineStackbitConfig({
     return documents
       .filter((doc) => doc.modelName === "Page")
       .map((doc) => {
-        const slug = doc.id.replace(/\.html$/, "");
+        const slug = doc.id.replace(/^content\//, "").replace(/\.md$/, "");
         return {
-          urlPath: slug === "index" ? "/" : `/${slug}`,
+          urlPath: slug === "index" ? "/" : `/${slug}/`,
           document: doc
         };
       });
