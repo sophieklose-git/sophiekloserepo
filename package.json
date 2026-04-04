@@ -1,0 +1,14 @@
+{
+  "name": "sophiescounsellingsite",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@stackbit/cms-git": "^1.0.38",
+    "@stackbit/types": "^2.1.15"
+  }
+}
