@@ -34,9 +34,7 @@ export default defineStackbitConfig({
           name: "Page",
           type: "page",
 
-          // This is the critical fix — recursive matching
-          filePath: "**/{slug}.html",
-
+          filePath: "*{slug}.html",
           urlPath: "/{slug}",
 
           fields: [
