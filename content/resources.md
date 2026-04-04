@@ -1,0 +1,255 @@
+---
+title: Resources
+---
+
+<div class="page-hero">
+  <p class="section-label">Resources</p>
+  <h1>Curated for Your <em>Wellbeing Journey</em></h1>
+  <p>A collection of thoughtfully selected resources — articles, tools, and organisations — to support you between sessions and beyond.</p>
+</div>
+
+<section>
+  <p class="section-label fade-in">Caring for Adolescents &amp; Young Adults</p>
+  <h2 class="section-title fade-in">Supporting <em>Young People</em></h2>
+  <div class="resources-grid">
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Book</p>
+      <h3>The Emotional Lives of Teenagers — Dr. Lisa Damour</h3>
+      <p>Explores emotional development in teenagers and offers guidance for the adults who support them.</p>
+      <a href="https://drlisadamour.com/" target="_blank" rel="noopener">Learn more →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Book</p>
+      <h3>Untangled — Dr. Lisa Damour</h3>
+      <p>A guide to understanding and navigating the seven developmental transitions of adolescence.</p>
+      <a href="https://drlisadamour.com/" target="_blank" rel="noopener">Learn more →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Book</p>
+      <h3>Of Boys and Men — Richard V. Reeves</h3>
+      <p>Addresses masculinity, male development, and the challenges facing boys and men today.</p>
+      <a href="https://richardvreeves.com/books/" target="_blank" rel="noopener">Learn more →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Book</p>
+      <h3>Third Culture Kids — David Pollock, Ruth E. Van Reken &amp; Michael V. Pollock</h3>
+      <p>Explores the experiences and unique identity formation of internationally mobile children and families.</p>
+      <a href="https://www.crossculturalkid.org/resources/books/" target="_blank" rel="noopener">Learn more →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Book</p>
+      <h3>The Defining Decade — Meg Jay</h3>
+      <p>Why your twenties matter and how to make the most of these formative young adult years.</p>
+      <a href="https://megjay.com/books/" target="_blank" rel="noopener">Learn more →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Podcast</p>
+      <h3>Ask Lisa — Dr. Lisa Damour &amp; Reena Ninan</h3>
+      <p>A Q&amp;A podcast covering questions on adolescent psychology from parents and caregivers.</p>
+      <a href="https://drlisadamour.com/resource/series/ask-lisa-podcast/" target="_blank" rel="noopener">Listen now →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Podcast</p>
+      <h3>The Psychology in Your 20s — Jemma Sbeg</h3>
+      <p>Explores psychological themes relevant to young adults navigating their twenties.</p>
+      <a href="https://open.spotify.com/show/2HGcJRYrjGnpce6bRp8UXm" target="_blank" rel="noopener">Listen now →</a>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--cream);">
+  <p class="section-label fade-in">Parenting in a Digital World</p>
+  <h2 class="section-title fade-in">Navigating <em>Technology &amp; Family</em></h2>
+  <div class="resources-grid">
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Book</p>
+      <h3>How We Grow Up — Matt Richtel</h3>
+      <p>Examines adolescent development and the science behind understanding how young people grow.</p>
+      <a href="https://www.mattrichtel.com/" target="_blank" rel="noopener">Learn more →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Book</p>
+      <h3>Reclaiming Conversation — Sherry Turkle</h3>
+      <p>Discusses the impact of technology on communication and the power of face-to-face conversation.</p>
+      <a href="https://www.sherryturkle.com/reclaiming-conversation" target="_blank" rel="noopener">Learn more →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Book</p>
+      <h3>The Anxious Generation — Jonathan Haidt</h3>
+      <p>Explores mental health trends in young people and the role of technology in rising anxiety.</p>
+      <a href="https://www.anxiousgeneration.com/" target="_blank" rel="noopener">Learn more →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Book</p>
+      <h3>How to Break Up With Your Phone — Catherine Price</h3>
+      <p>Practical guidance on building a healthier relationship with your phone and reclaiming your time.</p>
+      <a href="https://catherineprice.com/books" target="_blank" rel="noopener">Learn more →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Podcast</p>
+      <h3>Screen Deep — Children and Screens</h3>
+      <p>Examines children's media usage and its effects through expert-led conversations.</p>
+      <a href="https://www.childrenandscreens.org/screen-deep-podcast/" target="_blank" rel="noopener">Listen now →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Digital Literacy</p>
+      <h3>Center for Humane Technology: Youth Toolkit</h3>
+      <p>Resources and tools promoting healthy, intentional technology use for young people.</p>
+      <a href="https://www.humanetech.com/youth" target="_blank" rel="noopener">Visit website →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Research</p>
+      <h3>Thesis: An Analysis of Mental Health AI Chatbots in Counseling for Adolescents — Sophie Klose</h3>
+      <p>A qualitative evaluation of AI tools in counselling settings for adolescents (May 2025).</p>
+      <a href="https://sophieklose-git.github.io/sophiekloserepo/SophieKloseThesis.pdf" target="_blank" rel="noopener">Read paper →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Research</p>
+      <h3>Independent Study: Children's Media Usage, Parental Mediation and Attachment — Sophie Klose</h3>
+      <p>Investigates parental perspectives on media influence and attachment (May 2023).</p>
+      <a href="https://sophieklose-git.github.io/sophiekloserepo/SophieKloseIndependentstudy2023.pdf" target="_blank" rel="noopener">Read paper →</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <p class="section-label fade-in">Neurodiversity &amp; ADHD</p>
+  <h2 class="section-title fade-in">Understanding Your <em>Unique Brain</em></h2>
+  <div class="resources-grid">
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Book</p>
+      <h3>Driven to Distraction — Edward M. Hallowell, M.D. &amp; John J. Ratey, M.D.</h3>
+      <p>A clinical guide to recognising and coping with ADHD across the lifespan.</p>
+      <a href="https://www.penguinrandomhouse.com/books/209384/driven-to-distraction-revised-by-edward-m-hallowell-md-and-john-j-ratey-md/" target="_blank" rel="noopener">Learn more →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Book</p>
+      <h3>ADHD 2.0 — Edward M. Hallowell, M.D. &amp; John J. Ratey, M.D.</h3>
+      <p>Updated perspectives on ADHD management with the latest science and strategies.</p>
+      <a href="https://drhallowell.com/read/books-by-ned/" target="_blank" rel="noopener">Learn more →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Resource</p>
+      <h3>C2Caring2gether</h3>
+      <p>A support organisation for neurodivergent individuals and their families.</p>
+      <a href="https://c2gether.ch/media_object/" target="_blank" rel="noopener">Visit website →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Resource</p>
+      <h3>Behaviour Solutions Lab</h3>
+      <p>Behavioural intervention resources and support for neurodivergent individuals.</p>
+      <a href="https://www.behavioursolutionslab.com/" target="_blank" rel="noopener">Visit website →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Resource</p>
+      <h3>ADDitude: ADHD Science &amp; Strategies</h3>
+      <p>Leading magazine covering ADHD management, research, and practical strategies.</p>
+      <a href="https://www.additudemag.com/" target="_blank" rel="noopener">Visit website →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Resource</p>
+      <h3>Neurodivergent Insights</h3>
+      <p>Educational content and guidance on neurodiversity for individuals and families.</p>
+      <a href="https://neurodivergentinsights.com/" target="_blank" rel="noopener">Visit website →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Resource</p>
+      <h3>Dr. Russell A. Barkley: Education and Research on ADHD</h3>
+      <p>Expert clinical resources and research on ADHD from a leading authority.</p>
+      <a href="https://www.russellbarkley.org/" target="_blank" rel="noopener">Visit website →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Podcast</p>
+      <h3>ADDitude's ADHD Experts Podcast</h3>
+      <p>Expert interviews and discussions on ADHD topics, strategies, and treatment.</p>
+      <a href="https://additudemag.libsyn.com/" target="_blank" rel="noopener">Listen now →</a>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--cream);">
+  <p class="section-label fade-in">Insights from Neuroscience</p>
+  <h2 class="section-title fade-in">The Science of <em>Brain &amp; Wellbeing</em></h2>
+  <div class="resources-grid">
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Book</p>
+      <h3>The XX Brain — Lisa Mosconi</h3>
+      <p>Brain health across women's life stages, grounded in the latest neuroscience research.</p>
+      <a href="https://www.lisamosconi.com/xxbrain" target="_blank" rel="noopener">Learn more →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Book</p>
+      <h3>The Menopause Brain — Lisa Mosconi</h3>
+      <p>Neuroscience of menopausal transitions and strategies for supporting brain health.</p>
+      <a href="https://www.lisamosconi.com/the-menopause-brain" target="_blank" rel="noopener">Learn more →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Book</p>
+      <h3>The Women's Brain — Dr. Sarah McKay</h3>
+      <p>Explores sex-based neuroscience research and what it means for women's health.</p>
+      <a href="https://drsarahmckay.com/" target="_blank" rel="noopener">Learn more →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Book</p>
+      <h3>The Whole Brain Child — Dr. Tina Payne Bryson &amp; Dr. Daniel Siegel</h3>
+      <p>12 proven strategies to nurture your child's developing mind.</p>
+      <a href="https://drdansiegel.com/book/the-whole-brain-child/" target="_blank" rel="noopener">Learn more →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Book</p>
+      <h3>The 5 Resets — Dr. Aditi Nerurkar</h3>
+      <p>Stress management techniques grounded in neuroscience for everyday resilience.</p>
+      <a href="https://www.draditi.com/the-five-resets-book" target="_blank" rel="noopener">Learn more →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Podcast</p>
+      <h3>The Dr. Leaf Show — Dr. Caroline Leaf</h3>
+      <p>Discussions on brain science, mental health, and practical mind management strategies.</p>
+      <a href="https://drleaf.com/podcast" target="_blank" rel="noopener">Listen now →</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <p class="section-label fade-in">Other Helpful Resources</p>
+  <h2 class="section-title fade-in">For Everyday <em>Wellbeing</em></h2>
+  <div class="resources-grid">
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Book</p>
+      <h3>Self Compassion — Dr. Kristin Neff</h3>
+      <p>A guide to cultivating compassionate self-awareness and building inner resilience.</p>
+      <a href="https://self-compassion.org/books-by-kristin-neff/" target="_blank" rel="noopener">Learn more →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Book</p>
+      <h3>Atlas of the Heart — Brené Brown</h3>
+      <p>A guide to emotional literacy, mapping the language of human experience and connection.</p>
+      <a href="https://brenebrown.com/book/atlas-of-the-heart/" target="_blank" rel="noopener">Learn more →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Book</p>
+      <h3>The Book of Joy — His Holiness the Dalai Lama &amp; Archbishop Desmond Tutu</h3>
+      <p>Perspectives on cultivating lasting happiness from two of the world's great spiritual leaders.</p>
+      <a href="https://www.penguinrandomhouse.com/books/533718/the-book-of-joy-by-his-holiness-the-dalai-lama-and-archbishop-desmond-tutu-with-douglas-abrams/" target="_blank" rel="noopener">Learn more →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Book</p>
+      <h3>The Let Them Theory — Mel Robbins</h3>
+      <p>A framework for releasing unhelpful patterns and taking control of what you can change.</p>
+      <a href="https://www.melrobbins.com/book/the-let-them-theory/" target="_blank" rel="noopener">Learn more →</a>
+    </div>
+    <div class="resource-card fade-in">
+      <p class="resource-tag">Podcast</p>
+      <h3>The Mel Robbins Podcast</h3>
+      <p>Personal development and behavioural psychology insights for everyday life.</p>
+      <a href="https://www.melrobbins.com/podcast/" target="_blank" rel="noopener">Listen now →</a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section style="background:var(--charcoal); color:#fff; text-align:center; padding:5rem 6rem;">
+  <h2 class="section-title" style="color:#fff; text-align:center; max-width:20ch; margin:0 auto 1.5rem;">Have a Question About <em style="color:var(--sage);">Any of These Resources?</em></h2>
+  <p style="color:rgba(255,255,255,0.65); max-width:45ch; margin:0 auto 2.5rem; font-size:0.95rem; line-height:1.8;">I'm happy to point you in the right direction or talk through what kind of support might be most helpful for you right now.</p>
+  <a href="contact.html" class="btn-primary">Get in Touch</a>
+</section>
