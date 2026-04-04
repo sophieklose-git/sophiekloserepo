@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ title }} — Sophie Klose</title>
+  <meta name="description" content="{{ description or 'Compassionate, bilingual psychological counselling in Zurich and online.' }}" />
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">Sophie Klose, Psychological Counsellor (MA)<span>Flourishing Psychology &amp; Wellbeing</span></a>
+  <ul class="nav-links">
+    <li><a href="/">Home</a></li>
+    <li><a href="/why-counselling/">Why Counselling</a></li>
+    <li><a href="/about/">About Me</a></li>
+    <li><a href="/resources/">Resources</a></li>
+    <li><a href="/webinars/">Webinars</a></li>
+    <li><a href="/contact/" class="nav-cta">Book Now</a></li>
+  </ul>
+  <div class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></div>
+</nav>
+
+<div class="mobile-menu">
+  <button class="mobile-close" aria-label="Close menu">&#10005;</button>
+  <a href="/">Home</a>
+  <a href="/why-counselling/">Why Counselling</a>
+  <a href="/about/">About Me</a>
+  <a href="/resources/">Resources</a>
+  <a href="/webinars/">Webinars</a>
+  <a href="/contact/">Book Now</a>
+</div>
+
+{{ content | safe }}
+
+<footer>
+  <div class="footer-brand">
+    <h3>Sophie Klose</h3>
+    <p>Flourishing Psychology &amp; Wellbeing<br />Bilingual counselling in Zurich and online.</p>
+    <p style="margin-top:1rem;"><a href="mailto:contact@sophieklose.com" style="color:var(--clay);text-decoration:none;">contact@sophieklose.com</a></p>
+  </div>
+  <div>
+    <h4>Navigation</h4>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/why-counselling/">Why Counselling</a></li>
+      <li><a href="/about/">About Me</a></li>
+      <li><a href="/resources/">Resources</a></li>
+      <li><a href="/webinars/">Webinars</a></li>
+    </ul>
+  </div>
+  <div>
+    <h4>Specialisms</h4>
+    <ul>
+      <li><a href="/why-counselling/">Life Transitions</a></li>
+      <li><a href="/why-counselling/">ADHD &amp; Neurodiversity</a></li>
+      <li><a href="/why-counselling/">Tech-Wellbeing</a></li>
+    </ul>
+  </div>
+  <div>
+    <h4>Contact</h4>
+    <ul>
+      <li><a href="/contact/">Book a Session</a></li>
+      <li><a href="mailto:contact@sophieklose.com">Send an Email</a></li>
+    </ul>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2025 Sophie Klose &middot; Flourishing Psychology &amp; Wellbeing</span>
+    <span>SGfB &middot; ACA &middot; BACP Member</span>
+  </div>
+</footer>
+
+<script src="/main.js"></script>
+</body>
+</html>

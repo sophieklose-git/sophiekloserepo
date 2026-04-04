@@ -1,5 +1,7 @@
 ---
+layout: base.njk
 title: Webinars
+permalink: /webinars/
 ---
 
 <div class="page-hero">

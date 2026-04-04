@@ -1,5 +1,7 @@
 ---
+layout: base.njk
 title: About Me
+permalink: /about/
 ---
 
 <div class="page-hero">

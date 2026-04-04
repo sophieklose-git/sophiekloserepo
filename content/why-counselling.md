@@ -1,5 +1,7 @@
 ---
+layout: base.njk
 title: Why Counselling
+permalink: /why-counselling/
 ---
 
 <!-- PAGE HERO -->

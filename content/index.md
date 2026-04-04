@@ -1,5 +1,7 @@
 ---
+layout: base.njk
 title: Flourishing Psychology & Wellbeing
+permalink: /
 ---
 
 <!-- HERO -->

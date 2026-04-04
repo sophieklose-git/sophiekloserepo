@@ -1,5 +1,7 @@
 ---
+layout: base.njk
 title: Resources
+permalink: /resources/
 ---
 
 <div class="page-hero">

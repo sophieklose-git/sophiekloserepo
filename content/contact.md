@@ -1,5 +1,7 @@
 ---
+layout: base.njk
 title: Contact & Book
+permalink: /contact/
 ---
 
 <div class="page-hero">
